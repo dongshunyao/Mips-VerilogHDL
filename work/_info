@@ -8,23 +8,43 @@ z2
 !i10f 100
 cModel Technology
 dD:/x86/modeltech64_10.4/examples
-vrf
-!s110 1543154145
+vmux
+Z0 !s110 1543157036
 !i10b 1
-!s100 0GDf3QKFgdn1zMFk:<KAN0
-I<=011DPG5NHPdDQ<4cCAb2
-VDg1SIo80bB@j0V0VzS_@n1
-dD:/VerilogHDL
-w1543154144
-8D:/VerilogHDL/rf.v
-FD:/VerilogHDL/rf.v
+!s100 =;Hc<PJ0fA78=N^i>imL51
+I7e3jK3>8TP78VOQ[c^W[R0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/VerilogHDL
+w1543157033
+8D:/VerilogHDL/mux.v
+FD:/VerilogHDL/mux.v
 L0 1
-OL;L;10.4;61
+Z3 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1543154145.764000
+!s108 1543157036.580000
+!s107 D:/VerilogHDL/mux.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/mux.v|
+!i113 0
+Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vrf
+R0
+!i10b 1
+!s100 IZR]@W6TP;:bQY6VRhIkO0
+Ic:7m2<SLjUUYJ1iCP>c1]0
+R1
+R2
+w1543156847
+8D:/VerilogHDL/rf.v
+FD:/VerilogHDL/rf.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1543157036.418000
 !s107 D:/VerilogHDL/rf.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/rf.v|
 !i113 0
-o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
