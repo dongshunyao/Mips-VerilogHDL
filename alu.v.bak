@@ -1,0 +1,27 @@
+module alu(a, b, op, out, zero);
+	input [31:0] a, b;
+	input [2:0] op;
+
+	output zero;
+	output [31:0] out;
+
+
+	assign zero = (out == 0) ? 1 : 0;
+
+
+	parameter addu = 3'b000;
+	parameter subu = 3'b001;
+	parameter ori = 3'b010;
+	parameter lui = 3'b011;
+
+	always@(*)
+	begin
+		case (op)
+			addu : out = a + b;
+			subu : out = a - b;
+			ori : out = a | b;
+			lui : out = {b[15:0], 16'b0};
+		endcase
+	end
+
+endmodule
