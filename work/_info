@@ -8,3 +8,23 @@ z2
 !i10f 100
 cModel Technology
 dD:/x86/modeltech64_10.4/examples
+vrf
+!s110 1543154145
+!i10b 1
+!s100 0GDf3QKFgdn1zMFk:<KAN0
+I<=011DPG5NHPdDQ<4cCAb2
+VDg1SIo80bB@j0V0VzS_@n1
+dD:/VerilogHDL
+w1543154144
+8D:/VerilogHDL/rf.v
+FD:/VerilogHDL/rf.v
+L0 1
+OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1543154145.764000
+!s107 D:/VerilogHDL/rf.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/rf.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
