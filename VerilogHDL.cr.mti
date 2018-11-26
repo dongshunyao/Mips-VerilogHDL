@@ -1,4 +1,11 @@
-D:/VerilogHDL/ext.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/ext.v
+D:/VerilogHDL/dm.v {1 {vlog -work work -vopt -stats=none {D:\VerilogHDL\dm.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} D:/VerilogHDL/ext.v {1 {vlog -work work -vopt -stats=none {D:\VerilogHDL\ext.v}
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module ext
 
@@ -11,12 +18,5 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	mux
-
-} {} {}} D:/VerilogHDL/alu.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/alu.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module alu
-
-Top level modules:
-	alu
 
 } {} {}}

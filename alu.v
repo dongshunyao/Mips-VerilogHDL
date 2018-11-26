@@ -7,6 +7,7 @@ module alu(a, b, op, out, zero);
 
 	reg [32:0] result;
 
+
 	assign out = result[31:0];
 	assign zero = (out == 0) ? 1 : 0;
 

@@ -9,6 +9,7 @@ module rf(busW, RegWr, RW, RA, RB, busA, busB, clock, reset);
 
 	integer i;
 
+
 	assign busA = register[RB];
 	assign busB = register[RB];
 
@@ -17,7 +18,6 @@ module rf(busW, RegWr, RW, RA, RB, busA, busB, clock, reset);
 	begin
 		for (i = 0; i < 32; i = i + 1) register[i] <= 0;
 	end
-
 
 	always@(posedge clock, posedge reset)
 	begin
