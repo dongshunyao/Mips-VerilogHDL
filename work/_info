@@ -9,7 +9,7 @@ z2
 cModel Technology
 dD:/x86/modeltech64_10.4/examples
 valu
-Z0 !s110 1543212035
+Z0 !s110 1543219529
 !i10b 1
 !s100 SRmGCfW`laNUU<fY1e5TR2
 I0FoBMSlGPKb`7Z^fdN1]o3
@@ -23,29 +23,49 @@ Z3 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1543212035.738000
+!s108 1543219529.969000
 !s107 D:/VerilogHDL/alu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/alu.v|
 !i113 0
 Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-vext
-R0
+vdm
+Z5 !s110 1543219530
 !i10b 1
-!s100 ibWHYiPj88?5h5b=::V;e3
-IAbSNJEbcNl@JeDSmdE17_2
+!s100 J_QTNLl5IlKckIzUA?5TA1
+I2TKi=HSH^Fa9<4W=;]0bf0
 R1
 R2
-w1543212034
-8D:/VerilogHDL/ext.v
-FD:/VerilogHDL/ext.v
+w1543219527
+8D:\VerilogHDL\dm.v
+FD:\VerilogHDL\dm.v
 L0 1
 R3
 r1
 !s85 0
 31
-!s108 1543212035.825000
-!s107 D:/VerilogHDL/ext.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/ext.v|
+!s108 1543219530.151000
+!s107 D:\VerilogHDL\dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\VerilogHDL\dm.v|
+!i113 0
+R4
+vext
+R5
+!i10b 1
+!s100 ibWHYiPj88?5h5b=::V;e3
+INCa=deZOj26EWA0NH_G>R3
+R1
+R2
+w1543212034
+8D:\VerilogHDL\ext.v
+FD:\VerilogHDL\ext.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1543219530.061000
+!s107 D:\VerilogHDL\ext.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:\VerilogHDL\ext.v|
 !i113 0
 R4
 vmux
@@ -63,7 +83,7 @@ R3
 r1
 !s85 0
 31
-!s108 1543212035.630000
+!s108 1543219529.883000
 !s107 D:/VerilogHDL/mux.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/mux.v|
 !i113 0
@@ -71,11 +91,11 @@ R4
 vrf
 R0
 !i10b 1
-!s100 IZR]@W6TP;:bQY6VRhIkO0
-Ic:7m2<SLjUUYJ1iCP>c1]0
+!s100 <__=dnlU>`K1;Afnk=g@A0
+IlHPRnef2A@i4g4b`aC2[71
 R1
 R2
-w1543156847
+w1543219195
 8D:/VerilogHDL/rf.v
 FD:/VerilogHDL/rf.v
 L0 1
@@ -83,7 +103,7 @@ R3
 r1
 !s85 0
 31
-!s108 1543212035.544000
+!s108 1543219529.799000
 !s107 D:/VerilogHDL/rf.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/rf.v|
 !i113 0
