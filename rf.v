@@ -15,14 +15,14 @@ module rf(busW, RegWr, RW, RA, RB, busA, busB, clock, reset);
 
 	initial
 	begin
-		for (i = 0; i < 32; i = i + 1) register[i] = 0;
+		for (i = 0; i < 32; i = i + 1) register[i] <= 0;
 	end
 
 
 	always@(posedge clock, posedge reset)
 	begin
 		if (reset)
-			for (i = 0; i < 32; i = i + 1) register[i] = 0;
+			for (i = 0; i < 32; i = i + 1) register[i] <= 0;
 		else
 			if (RegWr && RW != 0) register[RW] = busW;
 	end
