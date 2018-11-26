@@ -7,7 +7,7 @@ module pc(clock, reset, in, out);
 	reg [29:0] pcnow;
 
 
-	assign out=pcnow;
+	assign out = pcnow;
 
 
 

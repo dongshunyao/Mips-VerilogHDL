@@ -10,5 +10,10 @@ module pc(clock, reset, in, out);
 	assign out = pcnow;
 
 
+	always@(posedge clock, posedge reset)
+	begin
+		if (reset) pcnow <= 30'h00000c00;
+		else pcnow <= in;
+	end
 
 endmodule
