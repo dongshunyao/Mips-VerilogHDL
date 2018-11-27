@@ -4,7 +4,8 @@ module mips(clock, reset);
 	wire [31:0] ins, busW, busA, busB, aluout, aluinB, extout, dmout;
 	wire [15:0] imm;
 	wire [4:0] rd, rt, rs;
-	wire zero, nPC_sel, RegWr, RegDst, ExtOp, ALUSrc, ALUctr, MemWr, MemtoReg, jumpCtr;
+	wire [2:0] ALUctr;
+	wire zero, nPC_sel, RegWr, RegDst, ExtOp, ALUSrc, MemWr, MemtoReg, jumpCtr;
 
 
 	assign rd = ins[15:11];
