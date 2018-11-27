@@ -1,16 +1,16 @@
-D:/VerilogHDL/npc.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/npc.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module npc
-
-Top level modules:
-	npc
-
-} {} {}} D:/VerilogHDL/mips.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/mips.v
+D:/VerilogHDL/mips.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/mips.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module mips
 
 Top level modules:
 	mips
+
+} {} {}} D:/VerilogHDL/npc.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/npc.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module npc
+
+Top level modules:
+	npc
 
 } {} {}} D:/VerilogHDL/dm.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/dm.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
