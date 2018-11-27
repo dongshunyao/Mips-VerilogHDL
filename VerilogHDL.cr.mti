@@ -1,30 +1,16 @@
-D:/VerilogHDL/ifu.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/ifu.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module ifu
-
-Top level modules:
-	ifu
-
-} {} {}} D:/VerilogHDL/rf.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/rf.v
+D:/VerilogHDL/rf.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/rf.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module rf
 
 Top level modules:
 	rf
 
-} {} {}} D:/VerilogHDL/npc.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/npc.v
+} {} {}} D:/VerilogHDL/ifu.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/ifu.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module npc
+-- Compiling module ifu
 
 Top level modules:
-	npc
-
-} {} {}} D:/VerilogHDL/dm.v {1 {vlog -work work -vopt -stats=none {D:\VerilogHDL\dm.v}
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module dm
-
-Top level modules:
-	dm
+	ifu
 
 } {} {}} D:/VerilogHDL/ext.v {1 {vlog -work work -vopt -stats=none {D:\VerilogHDL\ext.v}
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -33,12 +19,26 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	ext
 
-} {} {}} D:/VerilogHDL/im.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/im.v
+} {} {}} D:/VerilogHDL/dm.v {1 {vlog -work work -vopt -stats=none {D:\VerilogHDL\dm.v}
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module im
+-- Compiling module dm
 
 Top level modules:
-	im
+	dm
+
+} {} {}} D:/VerilogHDL/npc.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/npc.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module npc
+
+Top level modules:
+	npc
+
+} {} {}} D:/VerilogHDL/mux.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/mux.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mux
+
+Top level modules:
+	mux
 
 } {} {}} D:/VerilogHDL/alu.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/alu.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -47,12 +47,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	alu
 
-} {} {}} D:/VerilogHDL/mux.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/mux.v
+} {} {}} D:/VerilogHDL/im.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/im.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module mux
+-- Compiling module im
 
 Top level modules:
-	mux
+	im
 
 } {} {}} D:/VerilogHDL/pc.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/pc.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014

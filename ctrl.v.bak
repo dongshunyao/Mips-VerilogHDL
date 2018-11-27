@@ -2,7 +2,7 @@ module ctrl(ins, nPC_sel, RegWr, RegDst, ExtOp, ALUSrc, ALUctr, MemWr, MemtoReg,
 	input [31:0] ins;
 
 	output reg [2:0] ALUctr;
-	output  nPC_sel, RegWr, RegDst, ExtOp, ALUSrc, MemWr, MemtoReg, jumpCtr;
+	output reg nPC_sel, RegWr, RegDst, ExtOp, ALUSrc, MemWr, MemtoReg, jumpCtr;
 
 	wire [5:0] opcode, funct;
 
