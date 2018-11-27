@@ -13,7 +13,7 @@ module mips(clock, reset);
 	assign imm = ins[15:0];
 
 
-	ifu ifu1(.clock(clock), .reset(reset), .zero(zero), .nPC_sel(nPC_sel), .jumpCrt(jumpCrt), .ins(ins));
+	ifu ifu1(.clock(clock), .reset(reset), .zero(zero), .nPC_sel(nPC_sel), .jumpCtr(jumpCtr), .ins(ins));
 	ctrl ctrl1(.ins(ins), .nPC_sel(nPC_sel), .RegWr(RegWr), .RegDst(RegDst), .ExtOp(ExtOp), .ALUSrc(ALUSrc), .ALUctr(ALUctr), .MemWr(MemWr), .MemtoReg(MemtoReg), .jumpCtr(jumpCtr));
 	rf rf1(.busW(busW), .RegWr(RegWr), .RegDst(RegDst), .rd(rd), .rt(rt), .RA(rs), .RB(rt), .busA(busA), .busB(busB), .clock(clock), .reset(reset));
 	alu alu1(.a(busA), .b(aluinB), .op(ALUctr), .out(aluout), .zero(zero));

@@ -4,10 +4,11 @@ module test();
 	initial
 	begin
 		clock = 0;
-		reset = 0;
+		#5 reset = 1;
+        #5 reset = 0;
 	end
 
-	always #25 clock = ~clock;
+	always #20 clock = ~clock;
 
 	mips mips(.clock(clock), .reset(reset));
 

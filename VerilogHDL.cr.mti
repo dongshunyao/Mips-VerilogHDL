@@ -5,6 +5,13 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	npc
 
+} {} {}} D:/VerilogHDL/mips.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/mips.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mips
+
+Top level modules:
+	mips
+
 } {} {}} D:/VerilogHDL/dm.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/dm.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module dm
@@ -19,13 +26,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	ext
 
-} {} {}} D:/VerilogHDL/mips.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/mips.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module mips
-
-Top level modules:
-	mips
-
 } {} {}} D:/VerilogHDL/alu.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/alu.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module alu
@@ -39,6 +39,13 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	mux
+
+} {} {}} D:/VerilogHDL/pc.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/pc.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module pc
+
+Top level modules:
+	pc
 
 } {} {}} D:/VerilogHDL/ifu.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/ifu.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -67,5 +74,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 
 Top level modules:
 	ctrl
+
+} {} {}} D:/VerilogHDL/im.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/im.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module im
+
+Top level modules:
+	im
 
 } {} {}}
