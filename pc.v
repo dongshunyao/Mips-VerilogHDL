@@ -11,12 +11,12 @@ module pc(clock, reset, in, out);
 
 	initial
 	begin
-		pcnow <= 30'h00000000;
+		pcnow <= 30'h00000c00;
 	end
 
 	always@(posedge clock, posedge reset)
 	begin
-		if (reset) pcnow <= 30'h00000000;
+		if (reset) pcnow <= 30'h00000c00;
 		else pcnow <= in;
 	end
 

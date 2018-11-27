@@ -61,13 +61,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	test
 
-} {} {}} D:/VerilogHDL/rf.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/rf.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module rf
-
-Top level modules:
-	rf
-
 } {} {}} D:/VerilogHDL/ctrl.v {1 {vlog -work work -vopt -stats=none D:/VerilogHDL/ctrl.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module ctrl

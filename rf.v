@@ -13,7 +13,7 @@ module rf(busW, RegWr, RegDst, rd, rt, RA, RB, busA, busB, clock, reset);
 
 
 	assign RW = RegDst ? rd : rt;
-	assign busA = register[RB];
+	assign busA = register[RA];
 	assign busB = register[RB];
 
 
