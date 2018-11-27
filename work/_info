@@ -7,204 +7,259 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/x86/modeltech64_10.4/examples
+Z0 dD:/x86/modeltech64_10.4/examples
+T_opt
+!s110 1543311611
+Vf]1m01;RV5_IZ=FediTO53
+04 4 4 work test fast 0
+=1-f0761c6afef2-5bfd10fa-28a-25dc
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.4;61
+R0
+T_opt1
+!s110 1543312585
+VDaVnABQY_QaFAM^0HT4^d1
+04 3 4 work npc fast 0
+=1-f0761c6afef2-5bfd14c9-267-5148
+R1
+n@_opt1
+R2
+R0
+T_opt2
+!s110 1543313533
+V=]Jj1gW=8^?Vk<kd18kDz0
+04 3 4 work ifu fast 0
+=1-f0761c6afef2-5bfd187d-b4-674
+R1
+n@_opt2
+R2
+R0
 valu
-Z0 !s110 1543302962
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
 !i10b 1
 !s100 ?7^;`O[:]WLV>;<L5aIEI1
 InWb<VAD06neAoEOM2C5Iz2
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/VerilogHDL
+Z4 dD:/VerilogHDL
 w1543220260
 8D:/VerilogHDL/alu.v
 FD:/VerilogHDL/alu.v
 L0 1
-Z3 OL;L;10.4;61
-r1
-!s85 0
-31
-!s108 1543302962.263000
+Z5 OL;L;10.4;61
+!s108 1543314193.545000
 !s107 D:/VerilogHDL/alu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/alu.v|
 !i113 0
-Z4 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 vctrl
-R0
+R3
+r1
+!s85 0
+31
 !i10b 1
 !s100 FZfBRf@JeCI_:gcVSR3kh1
 I:<TbR1GnXTAnPd?cD;ki61
-R1
-R2
+R4
 w1543300520
 8D:/VerilogHDL/ctrl.v
 FD:/VerilogHDL/ctrl.v
 L0 1
+R5
+!s108 1543314194.348000
+!s107 D:/VerilogHDL/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/ctrl.v|
+!i113 0
+R6
+vdm
 R3
 r1
 !s85 0
 31
-!s108 1543302962.911000
-!s107 D:/VerilogHDL/ctrl.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/ctrl.v|
-!i113 0
-R4
-vdm
-R0
 !i10b 1
 !s100 J_QTNLl5IlKckIzUA?5TA1
 I8ilBJm`UQBo2ozBTP9BNN1
-R1
-R2
+R4
 w1543219527
 8D:/VerilogHDL/dm.v
 FD:/VerilogHDL/dm.v
 L0 1
+R5
+!s108 1543314193.831000
+!s107 D:/VerilogHDL/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/dm.v|
+!i113 0
+R6
+vext
 R3
 r1
 !s85 0
 31
-!s108 1543302962.446000
-!s107 D:/VerilogHDL/dm.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/dm.v|
-!i113 0
-R4
-vext
-R0
 !i10b 1
 !s100 ibWHYiPj88?5h5b=::V;e3
 IAbSNJEbcNl@JeDSmdE17_2
-R1
-R2
+R4
 w1543212034
 8D:/VerilogHDL/ext.v
 FD:/VerilogHDL/ext.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1543302962.353000
+R5
+!s108 1543314193.644000
 !s107 D:/VerilogHDL/ext.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/ext.v|
 !i113 0
-R4
+R6
 vifu
-R0
+R3
+r1
+!s85 0
+31
 !i10b 1
-!s100 [C`PLE5C:Hz^@PPiRcJ?90
-I=j0j]Z1W__DARah5aeX^d3
-R1
-R2
-w1543224921
+!s100 ;0_;7a@8>LDRSGnf?AD:h2
+I5hZD?Y2TbB04:UzYjOMa62
+R4
+w1543309648
 8D:/VerilogHDL/ifu.v
 FD:/VerilogHDL/ifu.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1543302962.822000
+R5
+!s108 1543314194.230000
 !s107 D:/VerilogHDL/ifu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/ifu.v|
 !i113 0
-R4
+R6
 vim
-R0
-!i10b 1
-!s100 hSH1dON=<flgzeBkYgVOQ3
-IDaK>z;jHcPKG`UcnPSP5f2
-R1
-R2
-w1543302960
-8D:/VerilogHDL/im.v
-FD:/VerilogHDL/im.v
-L0 1
 R3
 r1
 !s85 0
 31
-!s108 1543302962.642000
+!i10b 1
+!s100 hSH1dON=<flgzeBkYgVOQ3
+IDaK>z;jHcPKG`UcnPSP5f2
+R4
+w1543314165
+8D:/VerilogHDL/im.v
+FD:/VerilogHDL/im.v
+L0 1
+R5
+!s108 1543314194.030000
 !s107 D:/VerilogHDL/im.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/im.v|
 !i113 0
+R6
+vmips
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ic`cWf^0GNCoTDW3@V@0?0
+IEFN81nHocKAHf=AC<Y7JW2
 R4
+w1543308301
+8D:/VerilogHDL/mips.v
+FD:/VerilogHDL/mips.v
+L0 1
+R5
+!s108 1543314194.469000
+!s107 D:/VerilogHDL/mips.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/mips.v|
+!i113 0
+R6
 vmux
-R0
+R3
+r1
+!s85 0
+31
 !i10b 1
 !s100 =;Hc<PJ0fA78=N^i>imL51
 I7e3jK3>8TP78VOQ[c^W[R0
-R1
-R2
+R4
 w1543157033
 8D:/VerilogHDL/mux.v
 FD:/VerilogHDL/mux.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1543302962.175000
+R5
+!s108 1543314193.444000
 !s107 D:/VerilogHDL/mux.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/mux.v|
 !i113 0
-R4
+R6
 vnpc
-R0
+R3
+r1
+!s85 0
+31
 !i10b 1
-!s100 HWjQ>S>X1A7_6n=IbUY]R1
-IWV]hXWYR2d<bCQ@V5APj@0
-R1
-R2
-w1543223596
+!s100 :eleYF36Qe[QHITlb=TLA0
+I7Cz@:DZelGWNQW6nX:<f70
+R4
+w1543313834
 8D:/VerilogHDL/npc.v
 FD:/VerilogHDL/npc.v
 L0 1
-R3
-r1
-!s85 0
-31
-!s108 1543302962.733000
+R5
+!s108 1543314194.130000
 !s107 D:/VerilogHDL/npc.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/npc.v|
 !i113 0
-R4
+R6
 vpc
-R0
-!i10b 1
-!s100 gBF[Q>H:89;k6i<OBLMdR2
-I79@Vn@Ybm8U4KDQWKgZeJ0
-R1
-R2
-w1543220627
-8D:/VerilogHDL/pc.v
-FD:/VerilogHDL/pc.v
-L0 1
 R3
 r1
 !s85 0
 31
-!s108 1543302962.551000
+!i10b 1
+!s100 [DkNZ>Ff7?CTXBoF<a7[^2
+IkZ]k@zg<h`heWf_lQP5V23
+R4
+w1543314185
+8D:/VerilogHDL/pc.v
+FD:/VerilogHDL/pc.v
+L0 1
+R5
+!s108 1543314193.933000
 !s107 D:/VerilogHDL/pc.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/pc.v|
 !i113 0
-R4
+R6
 vrf
-R0
+R3
+r1
+!s85 0
+31
 !i10b 1
 !s100 kS4gi9iPX6P^@o:Fl3[:L1
 IHlR`84E0:@c=Kh1F6aR3G0
-R1
-R2
+R4
 w1543301382
 8D:/VerilogHDL/rf.v
 FD:/VerilogHDL/rf.v
 L0 1
+R5
+!s108 1543314193.349000
+!s107 D:/VerilogHDL/rf.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/rf.v|
+!i113 0
+R6
+vtest
 R3
 r1
 !s85 0
 31
-!s108 1543302962.086000
-!s107 D:/VerilogHDL/rf.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/rf.v|
-!i113 0
+!i10b 1
+!s100 TSOL]FNQe`be7zmNk9Xda3
+I_J7SNC6Ro_@^6S9fl`On=0
 R4
+w1543309257
+8D:/VerilogHDL/test.v
+FD:/VerilogHDL/test.v
+L0 1
+R5
+!s108 1543314194.574000
+!s107 D:/VerilogHDL/test.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/VerilogHDL/test.v|
+!i113 0
+R6

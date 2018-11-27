@@ -6,7 +6,6 @@ module mips(clock, reset);
 	wire [4:0] rd, rt, rs;
 	wire zero, nPC_sel, RegWr, RegDst, ExtOp, ALUSrc, ALUctr, MemWr, MemtoReg, jumpCtr;
 
-
 	assign rd = ins[15:11];
 	assign rt = ins[20:16];
 	assign rs = ins[25:21];
