@@ -11,6 +11,7 @@ module alu(a, b, op, out, zero);
 	assign out = result[31:0];
 	assign zero = (out == 0) ? 1 : 0;
 
+
 	parameter addu = 3'b000;
 	parameter subu = 3'b001;
 	parameter ori = 3'b010;

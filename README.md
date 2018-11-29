@@ -6,8 +6,9 @@
 
 ---
 ## 开发环境
-Window 10
+Window 10 x64 1809
 ModelSim SE-64 10.4
+Mars 4.5
 
 ---
 ## 目录结构
@@ -26,6 +27,9 @@ ModelSim SE-64 10.4
 测试程序
 
 ### code.txt
+测试指令，十六进制文本
+
+### code.asm
 测试指令
 
 ### ctrl.v
@@ -55,30 +59,29 @@ ModelSim SE-64 10.4
 ### ifu.v
 组合npc、pc、im为ifu，用于取址
 
-
 ### im.v
 指令内存，大小为 1024 × 32 bit，初始时加载code.txt
 
 ---
 ## 各指令设计线路与信号
 
-![](pic/addu.JPG)
+![ADDU](pic/addu.JPG)
 
-![](pic/subu.JPG)
+![SUBU](pic/subu.JPG)
 
-![](pic/lui.JPG)
+![LUI](pic/lui.JPG)
 
-![](pic/lw.JPG)
+![LW](pic/lw.JPG)
 
-![](pic/sw.JPG)
+![SW](pic/sw.JPG)
 
-![](pic/ori.JPG)
+![ORI](pic/ori.JPG)
 
-![](pic/beq.JPG)
+![BEQ](pic/beq.JPG)
 
-![](pic/j.JPG)
+![J](pic/j.JPG)
 
-![](pic/signal.JPG)
+![signal](pic/signal.JPG)
 
 ---
 ## 开源许可证

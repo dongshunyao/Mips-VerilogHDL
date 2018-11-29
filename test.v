@@ -1,6 +1,7 @@
 module test();
 	reg clock, reset;
 
+
 	initial
 	begin
 		clock = 0;

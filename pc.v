@@ -9,6 +9,7 @@ module pc(clock, reset, in, out);
 
 	assign out = pcnow;
 
+
 	initial
 	begin
 		pcnow <= 30'h00000c00;
