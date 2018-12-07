@@ -1,19 +1,19 @@
 ﻿# Verilog HDL 实现单周期 MIPS 处理器
 ---
-单周期MIPS处理器仿真
-实现命令：addu, subu, ori, lui, lw, sw, beq, j
-才疏学浅，请多多指教
+单周期MIPS处理器仿真  
+实现命令：addu, subu, ori, lui, lw, sw, beq, j  
+才疏学浅，请多多指教  
 
 ---
 ## 开发环境
-Window 10 x64 1809
-ModelSim SE-64 10.4
-Mars 4.5
+Windows 10 x64 1809  
+ModelSim SE-64 10.4  
+Mars 4.5  
 
 ---
 ## 目录结构
 
-路径 D:\VerilogHDL
+路径 D:\VerilogHDL  
 
 ![](pic/tree.jpg)
 
